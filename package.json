@@ -1,0 +1,33 @@
+{
+  "name": "yum-account-orders",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "author": "Fathi Abdat",
+  "description": "Yum Ta Dum account and order history microfrontend Web Component",
+  "scripts": {
+    "dev": "vite --configLoader runner",
+    "build": "vue-tsc --noEmit && vite build --configLoader runner && vite build --config vite.lib.config.ts --configLoader runner",
+    "build:standalone": "vite build --configLoader runner",
+    "build:component": "vite build --config vite.lib.config.ts --configLoader runner",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "5.3.0",
+    "material-symbols": "0.45.10",
+    "vue": "3.5.41",
+    "vue-router": "4.6.4",
+    "vuetify": "3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "@vitejs/plugin-vue": "6.0.8",
+    "@vue/test-utils": "2.4.11",
+    "jsdom": "30.0.1",
+    "typescript": "5.9.3",
+    "vite": "8.2.1",
+    "vitest": "4.1.10",
+    "vue-tsc": "3.3.9"
+  }
+}
