@@ -8,9 +8,10 @@ const projectDirectory = fileURLToPath(new URL('.', import.meta.url))
 export default defineConfig({
   plugins: [vue()],
   define: {
-    __YUM_FONT_PATH__: JSON.stringify('./fonts/'),
-    __YUM_BRAND_PATH__: JSON.stringify('./brand/'),
-  },
+  __YUM_FONT_PATH__: JSON.stringify('./fonts/'),
+  __YUM_BRAND_PATH__: JSON.stringify('./brand/'),
+  'process.env.NODE_ENV': JSON.stringify('production'),
+},
   build: {
     outDir: 'dist/component',
     emptyOutDir: false,
