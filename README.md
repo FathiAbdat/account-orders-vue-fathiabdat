@@ -94,5 +94,4 @@ When a key is missing, the standalone experience seeds a small contract-valid da
 
 The module includes visible labels and error guidance, keyboard-accessible controls, orange focus rings, 44px minimum control heights, reduced-motion support, semantic status text, and layouts for mobile, tablet, and desktop. All visual dependencies (Roboto and Material Symbols Outlined) are bundled with the component.
 =======
-# yum-ta-dum-account-orders-vue
->>>>>>> 4f79b81e92a7735571a3cc7ba9be4d0941d135cb
+
