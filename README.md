@@ -2,6 +2,9 @@
 # Yum Ta Dum — Account & Orders
 
 A standalone Vue 3 + Vuetify 3 microfrontend owned by **Fathi Abdat**. The package self-registers the custom element `<yum-account-orders>` and implements account access, profile presentation, order history, and complete order details using persistent client-side storage.
+## Demo video
+
+[▶️ Watch the project demo on Google Drive](https://drive.google.com/file/d/1Yrdof2J5fM9Y2siDRRZ-5b0qdrjqSZ3y/view?usp=sharing)
 
 ## Included routes
 
@@ -93,5 +96,4 @@ When a key is missing, the standalone experience seeds a small contract-valid da
 ## Accessibility and responsive behavior
 
 The module includes visible labels and error guidance, keyboard-accessible controls, orange focus rings, 44px minimum control heights, reduced-motion support, semantic status text, and layouts for mobile, tablet, and desktop. All visual dependencies (Roboto and Material Symbols Outlined) are bundled with the component.
-=======
 
